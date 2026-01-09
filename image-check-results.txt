@@ -1,0 +1,58 @@
+﻿Found 53 product images:
+
+=== UNSPLASH IMAGES ===
+3. https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&q=80&w=1080
+17. https://images.unsplash.com/photo-1580870069867-74c57ee1bb07?fm=jpg&q=80&w=800
+18. https://images.unsplash.com/photo-1615397349754-cfa2066a298e?fm=jpg&q=80&w=800
+19. https://images.unsplash.com/photo-1605682681666-f4f47c6e4bb2?fm=jpg&q=80&w=800
+20. https://images.unsplash.com/photo-1686831758227-1802d0ba5eda?fm=jpg&q=80&w=800
+21. https://images.unsplash.com/photo-1686831451322-8d8e234a51e1?fm=jpg&q=80&w=800
+22. https://images.unsplash.com/photo-1600428853876-fb5a850b444f?auto=format&fit=crop&q=80&w=1080
+23. https://images.unsplash.com/photo-1601066551508-6d9cb1b9de65?auto=format&fit=crop&q=80&w=1080
+24. https://images.unsplash.com/photo-1702724122793-37ff49fee252?auto=format&fit=crop&q=80&w=1080
+25. https://images.unsplash.com/photo-1594813591867-02e797aa4581?auto=format&fit=crop&q=80&w=1080
+26. https://images.unsplash.com/photo-1512207683547-2631a3798786?auto=format&fit=crop&q=80&w=1080
+27. https://images.unsplash.com/photo-1741896135512-084b251887f7?w=1080
+28. https://images.unsplash.com/photo-1710693547912-db17dc079ed4?w=1080
+29. https://images.unsplash.com/photo-1592372554345-22ced975691d?w=1080
+30. https://images.unsplash.com/photo-1656103743126-656ce0ed6291?w=1080
+31. https://images.unsplash.com/photo-1724155593611-68a596dcc9ed?w=1080
+32. https://images.unsplash.com/photo-1520970627878-360d5bfa74d0?w=1080
+33. https://images.unsplash.com/photo-1593618998160-e34014e67546?w=1080
+34. https://images.unsplash.com/photo-1574966736293-7856e719f268?w=1080
+35. https://images.unsplash.com/photo-1626509653293-6e3e52702b8d?w=1080
+36. https://images.unsplash.com/photo-1699965008544-77a28867a57c?w=1080
+37. https://images.unsplash.com/photo-1635399587441-2187f4b301c2?w=1080
+38. https://images.unsplash.com/photo-1587829741301-dc798b91a602?w=1080
+39. https://images.unsplash.com/photo-1520696773323-28f0ee043a27?w=1080
+40. https://images.unsplash.com/photo-1588619461332-4458db9fa127?w=1080
+41. https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=1080
+42. https://images.unsplash.com/photo-1599305090598-fe179d501227?w=1080
+43. https://images.unsplash.com/photo-1765110278433-7b0d294a1104?auto=format&fit=crop&q=80&w=1080
+44. https://images.unsplash.com/photo-1678047141089-82478810603b?auto=format&fit=crop&q=80&w=1080
+45. https://images.unsplash.com/photo-1681741179058-e8a7a7cf77a9?auto=format&fit=crop&q=80&w=1080
+46. https://images.unsplash.com/photo-1589667762466-68ce9ed3bbe8?auto=format&fit=crop&q=80&w=1080
+47. https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?w=1080
+48. https://images.unsplash.com/photo-1473968512647-3e447244af8f?auto=format&fit=crop&q=80&w=1080
+49. https://images.unsplash.com/photo-1560174038-da43ac74f01b?auto=format&fit=crop&q=80&w=1080
+50. https://images.unsplash.com/photo-1559454403-b8fb98506263?w=1080
+51. https://images.unsplash.com/photo-1705393928685-4dec061491dd?auto=format&fit=crop&q=80&w=1080
+
+=== LOCAL IMAGES ===
+1. /assets/images/nails.webp - Γ£ô EXISTS
+2. /assets/images/swiss.webp - Γ£ô EXISTS
+4. /assets/images/421.jpg - Γ£ô EXISTS
+5. /assets/images/mist.jpg - Γ£ô EXISTS
+6. /assets/images/soap.webp - Γ£ô EXISTS
+7. /assets/images/lotion.webp - Γ£ô EXISTS
+8. /assets/images/scrub.webp - Γ£ô EXISTS
+9. /assets/images/toner.webp - Γ£ô EXISTS
+10. /assets/images/serum.webp - Γ£ô EXISTS
+11. /assets/images/linen.webp - Γ£ô EXISTS
+12. /assets/images/roller.webp - Γ£ô EXISTS
+13. /assets/images/lipstick.png - Γ£ô EXISTS
+14. /assets/images/shimmer-oil.png - Γ£ô EXISTS
+15. /assets/images/perfume.png - Γ£ô EXISTS
+16. /assets/images/honey-oat-mask.png - Γ£ô EXISTS
+52. /assets/images/linen.webp - Γ£ô EXISTS
+53. /assets/images/vase.avif - Γ£ô EXISTS
