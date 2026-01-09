@@ -22,7 +22,7 @@ export function PromoBanner({
   const bgColors = {
     dark: "bg-neutral-900 text-white",
     light: "bg-neutral-100 text-neutral-900",
-    accent: "bg-[#7a4b47] text-white",
+    accent: "bg-[#15803d] text-white",
   };
 
   return (

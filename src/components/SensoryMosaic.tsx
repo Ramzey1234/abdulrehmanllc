@@ -10,18 +10,18 @@ const featuredItems = [
     title: "The Signature Scent",
     img: "/assets/images/perfume.png",
     colSpan: "md:col-span-6 lg:col-span-7",
-    bg: "bg-[#8c6b65]", // Rosy Brown - Rich but muted
-    textColor: "text-[#f2e6e1]",
-    btnColor: "bg-[#f2e6e1] text-[#8c6b65]",
+    bg: "bg-[#15803d]", // Forest Green - Rich but muted
+    textColor: "text-[#ecfdf5]",
+    btnColor: "bg-[#ecfdf5] text-[#15803d]",
   },
   {
     type: "Decor",
     title: "Sculptural Form",
-    img: "/assets/images/vase.avif",
+    img: "/assets/images/vase.webp",
     colSpan: "md:col-span-6 lg:col-span-5",
-    bg: "bg-[#dcbdb9]", // Dustier Rose - Lighter complement
-    textColor: "text-[#2f2423]",
-    btnColor: "bg-[#2f2423] text-[#f2e6e1]",
+    bg: "bg-[#6ee7b7]", // Soft Emerald - Lighter complement
+    textColor: "text-[#064e3b]",
+    btnColor: "bg-[#064e3b] text-[#ecfdf5]",
   },
 ];
 

@@ -17,15 +17,15 @@ export const FeaturedCollection = ({
   return (
     <section className="py-24 bg-[#faf8f6] relative overflow-hidden">
       {/* Decorative background element */}
-      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-b from-[#f2e6e1]/40 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-gradient-to-b from-[#d1fae5]/40 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
 
       <div className="container-page relative z-10">
         <div className="text-center max-w-2xl mx-auto mb-16">
-          <h2 className="text-4xl md:text-5xl font-light text-[#2f2423] mb-4">
+          <h2 className="text-4xl md:text-5xl font-light text-[#064e3b] mb-4">
             {title}
           </h2>
-          <div className="h-px w-24 bg-[#d8c4c0] mx-auto mb-6" />
-          <p className="text-[#6a5854] text-lg font-light leading-relaxed">
+          <div className="h-px w-24 bg-[#000] mx-auto mb-6" />
+          <p className="text-[#065f46] text-lg font-light leading-relaxed">
             {subtitle}
           </p>
         </div>
@@ -37,7 +37,7 @@ export const FeaturedCollection = ({
               key={product.id}
               className="group block relative"
             >
-              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#f0e6e4] shadow-sm transition-all duration-500 group-hover:shadow-[0_20px_40px_rgba(122,75,71,0.1)]">
+              <div className="relative aspect-[4/5] overflow-hidden rounded-2xl bg-[#ecfdf5] shadow-sm transition-all duration-500 group-hover:shadow-[0_20px_40px_rgba(16,185,129,0.1)]">
                 <Image
                   src={product.img}
                   alt={product.name}
@@ -68,7 +68,7 @@ export const FeaturedCollection = ({
         <div className="mt-16 text-center">
           <Link
             href="/shop"
-            className="inline-block px-10 py-4 bg-[#7a4b47] text-white text-sm font-bold uppercase tracking-widest rounded-full hover:bg-[#6a3f3b] transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
+            className="inline-block px-10 py-4 bg-[#477a52] text-white text-sm font-bold uppercase tracking-widest rounded-full hover:bg-[#365e3f] transition-all shadow-lg hover:shadow-xl hover:-translate-y-1"
           >
             Shop All Collections
           </Link>

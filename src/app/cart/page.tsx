@@ -47,22 +47,16 @@ export default function CartPage() {
   ];
 
   return (
-    <div
-      className="bg-no-repeat bg-bottom min-h-screen"
-      style={{
-        backgroundImage: `url('/assets/images/beige.webp')`,
-        backgroundSize: "100%",
-      }}
-    >
+    <div className="bg-no-repeat bg-bottom min-h-screen bg-[#f0fdf4]">
       <main className="container-page section">
         <div className="mb-12">
-          <p className="text-sm tracking-wider font-light text-[#7a4b47] mb-3">
+          <p className="text-sm tracking-wider font-light text-[#059669] mb-3">
             Shopping Cart
           </p>
-          <h1 className="text-5xl font-light leading-tight text-[#4a2e2b] mb-2">
+          <h1 className="text-5xl font-light leading-tight text-[#064e3b] mb-2">
             Your Cart
           </h1>
-          <p className="text-lg font-light text-[#5e3a37]">
+          <p className="text-lg font-light text-[#065f46]">
             You have <span className="font-medium">{totalItems} items</span> in
             your cart
           </p>
@@ -72,7 +66,7 @@ export default function CartPage() {
           {/* CART ITEMS */}
           <div className="lg:col-span-2">
             <div className="card p-8 mb-8 bg-white/80 backdrop-blur-sm">
-              <h2 className="text-2xl font-light text-[#4a2e2b] mb-8">
+              <h2 className="text-2xl font-light text-[#064e3b] mb-8">
                 Order Items
               </h2>
 
@@ -90,7 +84,7 @@ export default function CartPage() {
                       }`}
                     >
                       <div className="flex-shrink-0">
-                        <div className="w-24 h-24 rounded-xl bg-gradient-to-br from-[#f9ece9] to-[#f0dcd8] shadow-sm overflow-hidden">
+                        <div className="w-24 h-24 rounded-xl bg-gradient-to-br from-[#d1fae5] to-[#a7f3d0] shadow-sm overflow-hidden">
                           <Image
                             src={item.img}
                             alt={item.name}
@@ -101,11 +95,11 @@ export default function CartPage() {
                       </div>
 
                       <div className="flex-1">
-                        <p className="font-medium text-lg text-[#4a2e2b] mb-2">
+                        <p className="font-medium text-lg text-[#064e3b] mb-2">
                           {item.name}
                         </p>
 
-                        <div className="flex items-center gap-6 text-sm text-[#7a4b47]">
+                        <div className="flex items-center gap-6 text-sm text-[#059669]">
                           <span className="font-light">
                             Qty:{" "}
                             <select
@@ -113,7 +107,7 @@ export default function CartPage() {
                               onChange={(e) =>
                                 updateQty(item.id, Number(e.target.value))
                               }
-                              className="border border-[#d8c4c0] rounded px-2 py-1 text-sm"
+                              className="border border-[#a7f3d0] rounded px-2 py-1 text-sm"
                             >
                               {[1, 2, 3, 4, 5].map((n) => (
                                 <option key={n} value={n}>
@@ -130,12 +124,12 @@ export default function CartPage() {
                       </div>
 
                       <div className="text-right flex-shrink-0">
-                        <p className="font-medium text-lg text-[#4a2e2b] mb-3">
+                        <p className="font-medium text-lg text-[#064e3b] mb-3">
                           ${(item.price * item.qty).toFixed(2)}
                         </p>
                         <button
                           onClick={() => removeItem(item.id)}
-                          className="text-xs text-[#7a4b47] hover:text-[#673d3a] font-medium transition"
+                          className="text-xs text-[#059669] hover:text-[#047857] font-medium transition"
                         >
                           Remove
                         </button>
@@ -148,7 +142,7 @@ export default function CartPage() {
 
             {/* SUGGESTED PRODUCTS */}
             <div>
-              <h2 className="text-2xl font-light text-[#4a2e2b] mb-6">
+              <h2 className="text-2xl font-light text-[#064e3b] mb-6">
                 You Might Also Like
               </h2>
 
@@ -156,18 +150,18 @@ export default function CartPage() {
                 {suggestedProducts.map((product) => (
                   <div key={product.id} className="group">
                     <div className="card p-6 text-center bg-white/80 backdrop-blur-sm mb-4 hover:shadow-xl transition">
-                      <div className="bg-gradient-to-br from-[#f9ece9] to-[#f0dcd8] h-40 rounded-xl mb-4 group-hover:scale-105 transition"></div>
+                      <div className="bg-gradient-to-br from-[#d1fae5] to-[#a7f3d0] h-40 rounded-xl mb-4 group-hover:scale-105 transition"></div>
 
-                      <p className="font-medium text-sm text-[#4a2e2b] mb-2">
+                      <p className="font-medium text-sm text-[#064e3b] mb-2">
                         {product.name}
                       </p>
-                      <p className="text-sm font-light text-[#7a4b47] mb-4">
+                      <p className="text-sm font-light text-[#059669] mb-4">
                         ${product.price.toFixed(2)}
                       </p>
                     </div>
 
                     <button
-                      className="w-full px-4 py-2 rounded-full border border-[#7a4b47] text-[#4a2e2b] bg-[#fdf5f4]/70 hover:bg-[#f9e5e1] text-xs font-medium transition"
+                      className="w-full px-4 py-2 rounded-full border border-[#059669] text-[#064e3b] bg-[#ecfdf5]/70 hover:bg-[#d1fae5] text-xs font-medium transition"
                       onClick={() => {
                         const updated = [
                           ...cart,
@@ -188,30 +182,30 @@ export default function CartPage() {
           {/* ORDER SUMMARY */}
           <div className="lg:col-span-1">
             <div className="card p-8 sticky top-20 bg-white/80 backdrop-blur-sm">
-              <h2 className="text-2xl font-light text-[#4a2e2b] mb-8">
+              <h2 className="text-2xl font-light text-[#064e3b] mb-8">
                 Order Summary
               </h2>
 
               <div className="space-y-4 pb-8 border-b border-neutral-200">
                 <div className="flex justify-between">
-                  <span className="font-light text-[#5e3a37]">Subtotal</span>
-                  <span className="text-[#4a2e2b] font-light">
+                  <span className="font-light text-[#065f46]">Subtotal</span>
+                  <span className="text-[#064e3b] font-light">
                     ${subtotal.toFixed(2)}
                   </span>
                 </div>
 
                 <div className="flex justify-between">
-                  <span className="font-light text-[#5e3a37]">Tax (8%)</span>
-                  <span className="text-[#4a2e2b] font-light">
+                  <span className="font-light text-[#065f46]">Tax (8%)</span>
+                  <span className="text-[#064e3b] font-light">
                     ${tax.toFixed(2)}
                   </span>
                 </div>
 
                 <div className="flex justify-between">
-                  <span className="font-light text-[#5e3a37]">Shipping</span>
-                  <span className="text-[#4a2e2b] font-light">
+                  <span className="font-light text-[#065f46]">Shipping</span>
+                  <span className="text-[#064e3b] font-light">
                     {shipping === 0 ? (
-                      <span className="text-[#7a4b47] font-medium">Free</span>
+                      <span className="text-[#059669] font-medium">Free</span>
                     ) : (
                       `$${shipping.toFixed(2)}`
                     )}
@@ -220,20 +214,20 @@ export default function CartPage() {
               </div>
 
               <div className="flex justify-between items-center py-8 mb-8">
-                <span className="text-lg font-light text-[#4a2e2b]">Total</span>
-                <span className="text-3xl font-light text-[#7a4b47]">
+                <span className="text-lg font-light text-[#064e3b]">Total</span>
+                <span className="text-3xl font-light text-[#059669]">
                   ${total.toFixed(2)}
                 </span>
               </div>
 
               <Link href="/checkout">
-                <button className="w-full px-7 py-3 rounded-full bg-[#7a4b47] text-[#f9ece9] font-medium shadow-md shadow-[#7a4b47]/30 hover:bg-[#673d3a] transition mb-3">
+                <button className="w-full px-7 py-3 rounded-full bg-[#059669] text-[#ecfdf5] font-medium shadow-md shadow-[#059669]/30 hover:bg-[#047857] transition mb-3">
                   Proceed to Checkout
                 </button>
               </Link>
 
               <Link href="/" className="block">
-                <button className="w-full px-7 py-3 rounded-full border border-[#7a4b47] text-[#4a2e2b] bg-[#fdf5f4]/70 hover:bg-[#f9e5e1] transition font-medium">
+                <button className="w-full px-7 py-3 rounded-full border border-[#059669] text-[#064e3b] bg-[#ecfdf5]/70 hover:bg-[#d1fae5] transition font-medium">
                   Continue Shopping
                 </button>
               </Link>

@@ -74,26 +74,26 @@ export function FloatingSidebar() {
     >
       <div className="w-full p-8 rounded-3xl backdrop-blur-md bg-white/40 border border-white/50 shadow-2xl hover:shadow-lg transition-all duration-300 hover:bg-white/50">
         <div className="flex items-center justify-between mb-6">
-          <h3 className="text-xl font-light text-[#3a2f2d] tracking-tight">
+          <h3 className="text-xl font-light text-[#064e3b] tracking-tight">
             Refine
           </h3>
           <button
             onClick={handleReset}
-            className="text-xs font-medium text-[#7a4b47] hover:text-[#673d3a] transition hover:underline"
+            className="text-xs font-medium text-[#047857] hover:text-[#064e3b] transition hover:underline"
             title="Reset filters"
           >
             Reset
           </button>
         </div>
-        <div className="h-[1px] bg-gradient-to-r from-[#e8dcd7] via-[#e8dcd7] to-transparent mb-6" />
+        <div className="h-[1px] bg-gradient-to-r from-[#d1fae5] via-[#a7f3d0] to-transparent mb-6" />
         <div className="mb-8">
-          <label className="block mb-3 text-sm font-medium text-[#5b4b49]">
+          <label className="block mb-3 text-sm font-medium text-[#065f46]">
             Sort By
           </label>
           <select
             value={sort}
             onChange={handleSortChange}
-            className="w-full px-4 py-3 rounded-xl bg-white border-2 border-[#e7d8d4] text-[#3a2f2d] text-sm font-light focus:outline-none focus:border-[#7a4b47] focus:ring-2 focus:ring-[#7a4b47]/20 transition"
+            className="w-full px-4 py-3 rounded-xl bg-white border-2 border-[#d1fae5] text-[#064e3b] text-sm font-light focus:outline-none focus:border-[#10b981] focus:ring-2 focus:ring-[#10b981]/20 transition"
           >
             {sortOptions.map((opt) => (
               <option key={opt.value} value={opt.value}>
@@ -102,15 +102,15 @@ export function FloatingSidebar() {
             ))}
           </select>
         </div>
-        <div className="h-[1px] bg-gradient-to-r from-[#e8dcd7] via-[#e8dcd7] to-transparent mb-6" />
+        <div className="h-[1px] bg-gradient-to-r from-[#d1fae5] via-[#a7f3d0] to-transparent mb-6" />
         <div>
-          <label className="block mb-3 text-sm font-medium text-[#5b4b49]">
+          <label className="block mb-3 text-sm font-medium text-[#065f46]">
             Category
           </label>
           <select
             value={category}
             onChange={handleCategoryChange}
-            className="w-full px-4 py-3 rounded-xl bg-white border-2 border-[#e7d8d4] text-[#3a2f2d] text-sm font-light focus:outline-none focus:border-[#7a4b47] focus:ring-2 focus:ring-[#7a4b47]/20 transition cursor-pointer"
+            className="w-full px-4 py-3 rounded-xl bg-white border-2 border-[#d1fae5] text-[#064e3b] text-sm font-light focus:outline-none focus:border-[#10b981] focus:ring-2 focus:ring-[#10b981]/20 transition cursor-pointer"
           >
             <option value="all">All Products</option>
             {dynamicCategories.map((cat) => (
@@ -120,18 +120,18 @@ export function FloatingSidebar() {
             ))}
           </select>
         </div>
-        <div className="h-[1px] bg-gradient-to-r from-[#e8dcd7] via-[#e8dcd7] to-transparent my-6" />
+        <div className="h-[1px] bg-gradient-to-r from-[#d1fae5] via-[#a7f3d0] to-transparent my-6" />
         <div className="space-y-2">
-          <p className="text-xs text-[#6a5854] font-light leading-relaxed">
+          <p className="text-xs text-[#065f46] font-light leading-relaxed">
             {" "}
             Free shipping on orders over $50
           </p>
-          <p className="text-xs text-[#6a5854] font-light leading-relaxed">
+          <p className="text-xs text-[#065f46] font-light leading-relaxed">
             {" "}
             30-day returns on all items
           </p>
-          <p className="text-xs italic text-[#7a4b47] leading-relaxed mt-3 pt-3 border-t border-[#e8dcd7]">
-            &quot;Find what feels like home.&quot;
+          <p className="text-xs italic text-[#047857] leading-relaxed mt-3 pt-3 border-t border-[#d1fae5]">
+            &quot;Nature's elegance in every detail.&quot;
           </p>
         </div>
       </div>

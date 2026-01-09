@@ -53,11 +53,11 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="bg-[#faf8f6]">
+    <div className="bg-[#f0fdf4]">
       <section className="relative pt-24 pb-20 overflow-hidden">
         {/* Premium Background Elements */}
-        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-b from-[#f2e6e1]/50 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-t from-[#e8dcd9]/40 to-transparent rounded-full blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[800px] h-[800px] bg-gradient-to-b from-[#d1fae5]/50 to-transparent rounded-full blur-3xl -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gradient-to-t from-[#a7f3d0]/40 to-transparent rounded-full blur-3xl translate-y-1/3 -translate-x-1/4 pointer-events-none" />
 
         <div className="container-page relative z-10 max-w-7xl mx-auto px-6">
           {/* Header Section */}
@@ -66,7 +66,7 @@ export default function ContactPage() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
-              className="text-xs font-bold tracking-[0.25em] text-[#7a4b47] uppercase mb-5"
+              className="text-xs font-bold tracking-[0.25em] text-[#059669] uppercase mb-5"
             >
               Connect With Us
             </motion.p>
@@ -74,7 +74,7 @@ export default function ContactPage() {
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.1 }}
-              className="text-5xl md:text-7xl font-light text-[#2f2423] mb-8 tracking-tight"
+              className="text-5xl md:text-7xl font-light text-[#064e3b] mb-8 tracking-tight"
             >
               Let&apos;s create something beautiful.
             </motion.h1>
@@ -82,7 +82,7 @@ export default function ContactPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="text-lg md:text-xl text-[#6a5854] font-light leading-relaxed max-w-2xl mx-auto"
+              className="text-lg md:text-xl text-[#065f46] font-light leading-relaxed max-w-2xl mx-auto"
             >
               We are always open to new ideas, collaborations, and stories. Tell
               us what&apos;s on your mind.
@@ -100,7 +100,7 @@ export default function ContactPage() {
               {/* Image Card */}
               <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden shadow-2xl group flex-grow min-h-[400px]">
                 <Image
-                  src="/assets/images/vase.avif"
+                  src="/assets/images/vase.webp"
                   alt="Aesthetic Vase"
                   fill
                   className="object-cover transition-transform duration-1000 ease-out group-hover:scale-105"
@@ -118,19 +118,19 @@ export default function ContactPage() {
               </div>
 
               {/* Social/Link Block */}
-              <div className="bg-white rounded-[2rem] p-8 border border-[#efe8e6] shadow-sm flex flex-col justify-center">
-                <h3 className="text-[#2f2423] text-lg font-medium mb-4">
+              <div className="bg-white rounded-[2rem] p-8 border border-[#d1fae5] shadow-sm flex flex-col justify-center">
+                <h3 className="text-[#064e3b] text-lg font-medium mb-4">
                   Follow our Journey
                 </h3>
                 <div className="space-y-3">
                   <a
                     href="#"
-                    className="flex items-center justify-between group py-2 border-b border-[#f2e8e6] hover:border-[#7a4b47] transition-colors"
+                    className="flex items-center justify-between group py-2 border-b border-[#d1fae5] hover:border-[#059669] transition-colors"
                   >
-                    <span className="text-[#6a5854] group-hover:text-[#7a4b47] transition-colors">
+                    <span className="text-[#065f46] group-hover:text-[#059669] transition-colors">
                       Instagram
                     </span>
-                    <span className="text-[#d8c4c0] group-hover:text-[#7a4b47] transition-colors">
+                    <span className="text-[#a7f3d0] group-hover:text-[#059669] transition-colors">
                       ↗
                     </span>
                   </a>
@@ -154,13 +154,13 @@ export default function ContactPage() {
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="lg:col-span-7 bg-white rounded-[2.5rem] p-8 md:p-12 shadow-[0_25px_50px_rgba(0,0,0,0.03)] border border-[#f5efed] relative overflow-hidden flex flex-col justify-center"
+              className="lg:col-span-7 bg-white rounded-[2.5rem] p-8 md:p-12 shadow-[0_25px_50px_rgba(0,0,0,0.03)] border border-[#d1fae5] relative overflow-hidden flex flex-col justify-center"
             >
               <div className="mb-10">
-                <h2 className="text-3xl font-light text-[#2f2423] mb-3">
+                <h2 className="text-3xl font-light text-[#064e3b] mb-3">
                   Send a Message
                 </h2>
-                <p className="text-[#8c7a76] font-light">
+                <p className="text-[#065f46] font-light">
                   Inquiries, feedback, or just sharing the love.
                 </p>
               </div>
@@ -172,13 +172,13 @@ export default function ContactPage() {
                       name="name"
                       type="text"
                       required
-                      className="w-full py-4 bg-transparent border-b border-[#e0d0cc] text-[#2f2423] placeholder-transparent focus:outline-none focus:border-[#7a4b47] transition-all peer"
+                      className="w-full py-4 bg-transparent border-b border-[#d1fae5] text-[#064e3b] placeholder-transparent focus:outline-none focus:border-[#10b981] transition-all peer"
                       id="name"
                       placeholder="Name"
                     />
                     <label
                       htmlFor="name"
-                      className="absolute left-0 -top-3.5 text-xs text-[#7a4b47] transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-[#a38e8a] peer-placeholder-shown:top-3.5 peer-focus:-top-3.5 peer-focus:text-xs peer-focus:text-[#7a4b47]"
+                      className="absolute left-0 -top-3.5 text-xs text-[#059669] transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-[#065f46] peer-placeholder-shown:top-3.5 peer-focus:-top-3.5 peer-focus:text-xs peer-focus:text-[#059669]"
                     >
                       Your Name
                     </label>
@@ -238,7 +238,7 @@ export default function ContactPage() {
                   <button
                     type="submit"
                     disabled={formState.status === "submitting"}
-                    className="inline-flex items-center justify-center px-10 py-4 bg-[#2f2423] text-white rounded-full font-medium tracking-wide hover:bg-[#4a3a38] transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 disabled:opacity-70 disabled:hover:translate-y-0"
+                    className="inline-flex items-center justify-center px-10 py-4 bg-[#064e3b] text-white rounded-full font-medium tracking-wide hover:bg-[#065f46] transition-all shadow-lg hover:shadow-xl hover:-translate-y-1 disabled:opacity-70 disabled:hover:translate-y-0"
                   >
                     {formState.status === "submitting" ? (
                       <span className="flex items-center gap-2">
@@ -284,10 +284,10 @@ export default function ContactPage() {
               transition={{ duration: 0.6 }}
               className="text-center mb-12"
             >
-              <h3 className="text-3xl font-light text-[#2f2423] mb-4">
+              <h3 className="text-3xl font-light text-[#064e3b] mb-4">
                 Common Questions
               </h3>
-              <p className="text-[#6a5854] font-light">
+              <p className="text-[#065f46] font-light">
                 Everything you need to know about our products and services.
               </p>
             </motion.div>
@@ -299,17 +299,17 @@ export default function ContactPage() {
                   initial={{ opacity: 0, y: 10 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className="bg-white rounded-2xl border border-[#efe8e6] overflow-hidden shadow-sm"
+                  className="bg-white rounded-2xl border border-[#d1fae5] overflow-hidden shadow-sm"
                 >
                   <button
                     onClick={() => setOpenFaq(openFaq === index ? null : index)}
                     className="w-full flex items-center justify-between p-6 text-left"
                   >
-                    <span className="text-lg text-[#2f2423] font-medium">
+                    <span className="text-lg text-[#064e3b] font-medium">
                       {faq.question}
                     </span>
                     <span
-                      className={`text-[#7a4b47] transform transition-transform duration-300 ${
+                      className={`text-[#059669] transform transition-transform duration-300 ${
                         openFaq === index ? "rotate-45" : "rotate-0"
                       }`}
                     >
@@ -336,7 +336,7 @@ export default function ContactPage() {
                         exit={{ height: 0, opacity: 0 }}
                         transition={{ duration: 0.3 }}
                       >
-                        <div className="px-6 pb-6 text-[#6a5854] leading-relaxed font-light">
+                        <div className="px-6 pb-6 text-[#065f46] leading-relaxed font-light">
                           {faq.answer}
                         </div>
                       </motion.div>

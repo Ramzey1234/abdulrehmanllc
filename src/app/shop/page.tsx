@@ -4,13 +4,7 @@ import { Footer } from "@/components/CTASection";
 
 export default function ShopPage() {
   return (
-    <div
-      className="bg-no-repeat bg-bottom"
-      style={{
-        backgroundImage: `url('/assets/images/beige.webp')`,
-        backgroundSize: "100%",
-      }}
-    >
+    <div className="bg-no-repeat bg-bottom">
       <Suspense>
         <ShopPageContent />
         <Footer />

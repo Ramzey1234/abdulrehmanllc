@@ -62,8 +62,8 @@ export default function Page() {
 
       {/* First Promo Banner */}
       <PromoBanner
-        title="The Art of Living"
-        subtitle="Curated collections for the discerning individual. Elevate your space with our hand-picked treasures."
+        title="Nature's Elegance"
+        subtitle="Discover the beauty of sustainable living. Hand-picked treasures that bring nature home."
         ctaText="View Collection"
         variant="accent"
         href="/shop"
@@ -71,8 +71,8 @@ export default function Page() {
 
       {/* NEW: Featured Collection - "Congestion" point 1 */}
       <FeaturedCollection
-        title="New Requests"
-        subtitle="The latest additions to our sanctuary. Soft textures, calming tones, and effortless elegance."
+        title="Fresh Arrivals"
+        subtitle="Explore our latest additions. Inspired by the serenity of the outdoors."
         products={curatedProducts}
       />
 
@@ -81,17 +81,17 @@ export default function Page() {
 
       {/* Second Promo Banner - Dark contrast */}
       <PromoBanner
-        title="Free Shipping on Orders Over $150"
-        subtitle="Indulge in luxury without the extra cost. Worldwide shipping available."
+        title="Complimentary Shipping on Orders Over $150"
+        subtitle="Experience luxury delivered to your doorstep. Worldwide shipping available."
         ctaText="Shop Details"
         variant="dark"
       />
 
       {/* Feature / Ritual Section */}
-      <RitualSection />
+      {/* <RitualSection /> */}
 
       {/* Catalog Promo - Large visual block */}
-      <CatalogPromo />
+      {/* <CatalogPromo /> */}
 
       {/* NEW: Journal Section - "Content" point 2 */}
       <JournalSection />

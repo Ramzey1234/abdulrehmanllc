@@ -10,27 +10,27 @@ import { cn } from "@/lib/utils";
 const heroSlides = [
   {
     id: 1,
-    image: "/assets/images/hero.jpg", // Fallback/Default
+    image: "/assets/images/banner.jpg", // Fallback/Default
     title: "Elevate your glow.",
     subtitle: "Luxury skincare for the modern soul.",
-    color: "text-[#4a2e2b]",
-    bgOverlay: "from-rose-200/40 via-rose-100/25",
+    color: "text-[#064e3b]",
+    bgOverlay: "from-emerald-200/40 via-emerald-100/25",
   },
   {
     id: 2,
     image: "/assets/images/beige.webp", // Placeholder, ideally replace with real images
     title: "Timeless Aesthetics.",
     subtitle: "Curated home decor that speaks volumes.",
-    color: "text-[#2b3a4a]",
-    bgOverlay: "from-blue-100/40 via-slate-100/25",
+    color: "text-[#065f46]",
+    bgOverlay: "from-green-100/40 via-emerald-50/25",
   },
   {
     id: 3,
-    image: "/assets/images/hero.jpg", // Reusing for demo
+    image: "/assets/images/banner.jpg", // Reusing for demo
     title: "Pure Essence.",
     subtitle: "Fragrances that define your presence.",
-    color: "text-[#3a4a2b]",
-    bgOverlay: "from-green-100/40 via-emerald-100/25",
+    color: "text-[#14532d]",
+    bgOverlay: "from-emerald-100/40 via-teal-100/25",
   },
 ];
 
@@ -144,7 +144,7 @@ export function HeroSlider() {
               >
                 <Link
                   href="/shop"
-                  className="px-8 py-4 rounded-full bg-neutral-900 text-white font-medium hover:bg-neutral-800 transition-colors shadow-lg hover:shadow-xl"
+                  className="px-8 py-4 rounded-full bg-emerald-900 text-white font-medium hover:bg-emerald-800 transition-colors shadow-lg hover:shadow-xl"
                 >
                   Explore Now
                 </Link>
@@ -167,10 +167,10 @@ export function HeroSlider() {
                   instanceRef.current?.moveToIdx(idx);
                 }}
                 className={cn(
-                  "w-3 h-3 rounded-full border border-neutral-800/50 transition-all duration-300",
+                  "w-3 h-3 rounded-full border border-emerald-800/50 transition-all duration-300",
                   currentSlide === idx
-                    ? "bg-neutral-800 w-8"
-                    : "bg-transparent hover:bg-neutral-800/20"
+                    ? "bg-emerald-800 w-8"
+                    : "bg-transparent hover:bg-emerald-800/20"
                 )}
               />
             );

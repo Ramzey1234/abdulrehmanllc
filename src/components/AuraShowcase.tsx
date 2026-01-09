@@ -4,11 +4,11 @@ export function AuraShowcase() {
   return (
     <section className="relative py-24 md:py-44 overflow-hidden">
       {/* Background wash */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#f7e6e3] via-[#fff9f7] to-[#f3e7e4]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#ecfdf5] via-[#ffffff] to-[#d1fae5]" />
 
       {/* Decorative static shape (reduced runtime cost) */}
       <svg
-        className="absolute -top-40 right-0 w-[750px] opacity-25 text-[#edcfc8] pointer-events-none"
+        className="absolute -top-40 right-0 w-[750px] opacity-25 text-[#a7f3d0] pointer-events-none"
         viewBox="0 0 200 200"
       >
         <path
@@ -21,7 +21,7 @@ export function AuraShowcase() {
       {/* Perfume cluster */}
       <div className="absolute inset-y-0 right-0 flex items-center pointer-events-none z-10 overflow-visible">
         {/* Glow (static subtle background) */}
-        <div className="absolute bottom-10 right-[6vw] w-[60vw] h-[25vw] bg-[#eac4bc]/60 blur-[100px] rounded-full md:w-[50vw] md:h-[18vw] pointer-events-none" />
+        <div className="absolute bottom-10 right-[6vw] w-[60vw] h-[25vw] bg-[#a7f3d0]/60 blur-[100px] rounded-full md:w-[50vw] md:h-[18vw] pointer-events-none" />
 
         {/* Bottle image - optimized with next/image (improves LCP) */}
         <div className="relative h-[130%] w-auto md:h-[80vh] md:w-[55vw] lg:w-[50vw] md:relative md:right-[-12vw] lg:right-[-18vw] xl:right-[-22vw] max-w-none drop-shadow-[0_60px_85px_rgba(0,0,0,0.2)] pointer-events-none">
@@ -39,21 +39,21 @@ export function AuraShowcase() {
       <div className="container-page relative z-20 max-w-xl">
         {/* Mobile readability gradient - Removed as we are switching to dark text */}
 
-        <h2 className="relative z-10 text-4xl md:text-6xl lg:text-7xl font-light leading-[1.1] text-[#3f2f2d]">
+        <h2 className="relative z-10 text-4xl md:text-6xl lg:text-7xl font-light leading-[1.1] text-[#064e3b]">
           A singular moment of
-          <span className="text-[#8b5f5a] block md:inline">
+          <span className="text-[#15803d] block md:inline">
             {" "}
             pure radiance.
           </span>
         </h2>
 
-        <p className="relative z-10 mt-6 text-lg md:text-xl leading-relaxed font-normal max-w-md md:max-w-xl text-[#5b4744]">
+        <p className="relative z-10 mt-6 text-lg md:text-xl leading-relaxed font-normal max-w-md md:max-w-xl text-[#065f46]">
           Meet the centerpiece of your ritual, crafted to elevate your glow with
           a touch of softness and an air of luxury. Let your skin indulge in the
           refinement it deserves.
         </p>
 
-        <button className="relative z-10 mt-12 px-10 py-4 rounded-full bg-[#7a4b47] text-[#f9ece9] text-lg shadow-lg shadow-[#7a4b47]/40 hover:bg-[#673d3a] transition font-medium motion-reduce:transform-none motion-reduce:transition-none">
+        <button className="relative z-10 mt-12 px-10 py-4 rounded-full bg-[#15803d] text-[#ecfdf5] text-lg shadow-lg shadow-[#15803d]/40 hover:bg-[#14532d] transition font-medium motion-reduce:transform-none motion-reduce:transition-none">
           Discover Now
         </button>
       </div>

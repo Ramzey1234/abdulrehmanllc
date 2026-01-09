@@ -34,20 +34,20 @@ const articles = [
 
 export const JournalSection = () => {
   return (
-    <section className="py-24 bg-white border-t border-[#f0e6e4]">
+    <section className="py-24 bg-white border-t border-[#d1fae5]">
       <div className="container-page">
         <div className="flex justify-between items-end mb-12">
           <div>
             <span className="text-[#a38e8a] text-xs font-bold uppercase tracking-[0.2em] mb-2 block">
               The Journal
             </span>
-            <h2 className="text-4xl font-light text-[#2f2423]">
+            <h2 className="text-4xl font-light text-[#064e3b]">
               Stories & Rituals
             </h2>
           </div>
           <Link
             href="#"
-            className="hidden md:block text-[#7a4b47] hover:text-[#5b3633] border-b border-[#7a4b47]/30 hover:border-[#7a4b47] pb-1 transition-colors text-sm font-medium uppercase tracking-wide"
+            className="hidden md:block text-[#059669] hover:text-[#047857] border-b border-[#059669]/30 hover:border-[#059669] pb-1 transition-colors text-sm font-medium uppercase tracking-wide"
           >
             Read All Stories
           </Link>
@@ -69,13 +69,13 @@ export const JournalSection = () => {
                 <span className="text-xs text-[#a38e8a] font-medium tracking-wider">
                   {article.date}
                 </span>
-                <h3 className="text-xl font-medium text-[#2f2423] group-hover:text-[#7a4b47] transition-colors leading-tight">
+                <h3 className="text-xl font-medium text-[#064e3b] group-hover:text-[#059669] transition-colors leading-tight">
                   {article.title}
                 </h3>
-                <p className="text-[#6a5854] text-sm leading-relaxed line-clamp-2">
+                <p className="text-[#065f46] text-sm leading-relaxed line-clamp-2">
                   {article.excerpt}
                 </p>
-                <span className="inline-block mt-2 text-xs font-bold uppercase tracking-wide text-[#7a4b47] border-b border-transparent group-hover:border-[#7a4b47] transition-all">
+                <span className="inline-block mt-2 text-xs font-bold uppercase tracking-wide text-[#059669] border-b border-transparent group-hover:border-[#059669] transition-all">
                   Read More
                 </span>
               </div>
@@ -86,7 +86,7 @@ export const JournalSection = () => {
         <div className="md:hidden mt-10 text-center">
           <Link
             href="#"
-            className="text-[#7a4b47] border-b border-[#7a4b47]/30 pb-1 text-sm font-bold uppercase"
+            className="text-[#059669] border-b border-[#059669]/30 pb-1 text-sm font-bold uppercase"
           >
             Read All Stories
           </Link>

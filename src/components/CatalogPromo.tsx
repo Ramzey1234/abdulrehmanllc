@@ -11,7 +11,7 @@ const mosaic = [
   "/assets/images/perfume.png",
   "/assets/images/soap.webp",
   "/assets/images/serum.webp",
-  "/assets/images/hero.jpg",
+  "/assets/images/banner.jpg",
 ];
 
 export default function CatalogPromo() {

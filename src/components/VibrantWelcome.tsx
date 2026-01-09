@@ -27,10 +27,10 @@ const features = [
 
 export function VibrantWelcome() {
   return (
-    <section className="relative py-20 overflow-hidden bg-gradient-to-br from-[#fff5f5] via-[#fff0f0] to-[#f8f4ff]">
+    <section className="relative py-20 overflow-hidden bg-gradient-to-br from-[#f0fdf4] via-[#ecfdf5] to-[#f0fdfa]">
       {/* Decorative colored blobs */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-purple-200/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-orange-200/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-96 h-96 bg-emerald-200/30 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+      <div className="absolute bottom-0 left-0 w-96 h-96 bg-teal-200/30 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
 
       <div className="container-page relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -39,9 +39,10 @@ export function VibrantWelcome() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-serif text-[#2f2423] mb-6 leading-tight"
+            className="text-4xl md:text-5xl font-serif text-[#064e3b] mb-6 leading-tight"
           >
-            Welcome to <span className="text-[#a35e58] italic">Idrees</span>.
+            Welcome to{" "}
+            <span className="text-[#059669] italic">Abdul Rehman</span>.
             <br />
             Where style meets soul.
           </motion.h2>
@@ -72,7 +73,7 @@ export function VibrantWelcome() {
               >
                 <feature.icon size={24} />
               </div>
-              <h3 className="text-xl font-medium text-[#2f2423] mb-3">
+              <h3 className="text-xl font-medium text-[#064e3b] mb-3">
                 {feature.title}
               </h3>
               <p className="text-sm text-neutral-500 leading-relaxed">

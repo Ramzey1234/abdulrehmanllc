@@ -67,14 +67,14 @@ export default function ProductPage({ params }: { params: { id: string } }) {
   // Now return the "not found" message AFTER hooks, safe for React
   if (!product) {
     return (
-      <div className="container-page py-32 text-center text-[#3f2f2d]">
+      <div className="container-page py-32 text-center text-[#064e3b]">
         Product not found.
       </div>
     );
   }
 
   return (
-    <section className="pt-28 pb-32 bg-[linear-gradient(to_bottom,#f7efed,#f2e6e1,#efe1dd)] relative">
+    <section className="pt-28 pb-32 bg-[linear-gradient(to_bottom,#f0fdf4,#d1fae5,#a7f3d0)] relative">
       <div
         className="
           absolute inset-0 opacity-10
@@ -85,20 +85,20 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 
       <div className="container-page relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-start">
-          <div className="relative w-full h-[500px] rounded-[32px] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)] border border-[#e7d7d3]">
+          <div className="relative w-full h-[500px] rounded-[32px] overflow-hidden shadow-[0_20px_40px_rgba(0,0,0,0.1)] border border-[#a7f3d0]">
             <Image src={p.img} alt={p.name} fill className="object-cover" />
           </div>
 
           <div>
-            <h1 className="text-4xl font-semibold text-[#3f2f2d] leading-tight tracking-tight">
+            <h1 className="text-4xl font-semibold text-[#064e3b] leading-tight tracking-tight">
               {p.name}
             </h1>
 
-            <p className="mt-4 text-lg text-[#6a5854] leading-relaxed max-w-xl">
+            <p className="mt-4 text-lg text-[#065f46] leading-relaxed max-w-xl">
               {p.blurb}
             </p>
 
-            <p className="mt-6 text-3xl font-medium text-[#3c302e]">
+            <p className="mt-6 text-3xl font-medium text-[#064e3b]">
               ${p.price}
             </p>
 
@@ -107,10 +107,10 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 onClick={addToCart}
                 className="
                   px-8 py-3 rounded-full
-                  bg-[#7a4b47] text-white
-                  hover:bg-[#6a3f3b]
+                  bg-[#059669] text-white
+                  hover:bg-[#047857]
                   transition-colors
-                  shadow-md shadow-[#7a4b47]/30
+                  shadow-md shadow-[#059669]/30
                   text-sm font-medium tracking-wide
                 "
               >
@@ -136,9 +136,9 @@ export default function ProductPage({ params }: { params: { id: string } }) {
               )} */}
             </div>
 
-            <div className="h-[1px] w-full bg-[#e5d6d1] my-10"></div>
+            <div className="h-[1px] w-full bg-[#a7f3d0] my-10"></div>
 
-            <div className="text-[#6d5b57] leading-relaxed space-y-4 max-w-xl">
+            <div className="text-[#065f46] leading-relaxed space-y-4 max-w-xl">
               <p>
                 This piece is crafted for those who appreciate quiet luxury.
                 Every detail is designed to elevate your daily ritual without
@@ -157,7 +157,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
         </div>
 
         <div className="mt-32">
-          <h2 className="text-2xl font-semibold text-[#3f2f2d] mb-8">
+          <h2 className="text-2xl font-semibold text-[#064e3b] mb-8">
             You may also like
           </h2>
 
@@ -171,7 +171,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                   key={rec.id}
                   className="
                     group block rounded-[28px] overflow-hidden
-                    bg-white border border-[#eadfdb]
+                    bg-white border border-[#d1fae5]
                     shadow-sm hover:shadow-md transition-all
                   "
                 >
@@ -185,8 +185,8 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                   </div>
 
                   <div className="p-6">
-                    <h3 className="text-lg text-[#3f2f2d]">{rec.name}</h3>
-                    <p className="mt-1 text-[#6a5854] text-sm">${rec.price}</p>
+                    <h3 className="text-lg text-[#064e3b]">{rec.name}</h3>
+                    <p className="mt-1 text-[#065f46] text-sm">${rec.price}</p>
                   </div>
                 </a>
               ))}

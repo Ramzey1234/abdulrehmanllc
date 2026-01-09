@@ -6,19 +6,21 @@ import { NavBar } from "@/components/NavBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Idrees Store — Buy New Cosmetics",
+  title: "Abdul Rehman Store — Nature's Elegance for Your Lifestyle",
   description:
-    "A premium demo storefront for LLCs. Built with Next.js + Tailwind.",
+    "Discover quality products inspired by nature. Abdul Rehman Store brings elegance and sustainability to your everyday life.",
   metadataBase: new URL("https://example.com"),
   openGraph: {
-    title: "Idrees Store",
-    description: "A premium demo storefront for LLCs.",
+    title: "Abdul Rehman Store",
+    description:
+      "Quality products inspired by nature. Elevate your lifestyle with elegance and grace.",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Idrees Store",
-    description: "A premium demo storefront for LLCs.",
+    title: "Abdul Rehman Store",
+    description:
+      "Quality products inspired by nature. Elevate your lifestyle with elegance and grace.",
   },
 };
 
