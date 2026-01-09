@@ -9,7 +9,6 @@ import { dynamicCategories, categoryLabels } from "./Products";
 import { ShoppingBag, Menu, X, ChevronDown, Leaf } from "lucide-react";
 
 export function NavBar() {
-  const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -57,7 +56,7 @@ export function NavBar() {
                 Abdul Rehman
               </span>
               <span className="text-xs text-emerald-600 font-light tracking-wider">
-                NATURE'S ELEGANCE
+                NATURE&apos;S ELEGANCE
               </span>
             </div>
           </Link>

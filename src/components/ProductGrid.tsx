@@ -37,7 +37,7 @@ export default function ProductGrid() {
               Fresh Arrivals
             </span>
             <h2 className="text-3xl sm:text-4xl font-serif text-[#064e3b]">
-              Nature's Finest
+              Nature&apos;s Finest
             </h2>
           </div>
 

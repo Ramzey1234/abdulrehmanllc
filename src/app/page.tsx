@@ -88,10 +88,10 @@ export default function Page() {
       />
 
       {/* Feature / Ritual Section */}
-      {/* <RitualSection /> */}
+      <RitualSection />
 
       {/* Catalog Promo - Large visual block */}
-      {/* <CatalogPromo /> */}
+      <CatalogPromo />
 
       {/* NEW: Journal Section - "Content" point 2 */}
       <JournalSection />

@@ -18,8 +18,8 @@ export function RitualSection() {
         }}
       />
 
-      {/* Soft warm tint */}
-      <div className="absolute inset-0 bg-[#f5e7e2]/35 backdrop-blur-[2px]" />
+      {/* Soft emerald tint */}
+      <div className="absolute inset-0 bg-[#f0fdf4]/35 backdrop-blur-[2px]" />
 
       {/* Ambient floating light blob */}
       <motion.div
@@ -29,7 +29,7 @@ export function RitualSection() {
         className="
           absolute -bottom-32 -right-20
           w-[500px] h-[500px]
-          bg-[#ffe5dd]
+          bg-[#d1fae5]
           blur-[120px]
           rounded-full
           opacity-30
@@ -48,7 +48,7 @@ export function RitualSection() {
           transition={{ duration: 1.2, ease: "easeOut" }}
           className="
             text-5xl md:text-7xl
-            text-[#332b29]
+            text-[#064e3b]
             leading-[1.15]
             font-[allura]
             tracking-tight
@@ -68,7 +68,7 @@ export function RitualSection() {
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.2 }}
           className="
             mt-8 text-lg md:text-xl
-            text-[#4b403e]
+            text-[#065f46]
             leading-relaxed
             font-light
             max-w-2xl
@@ -88,7 +88,7 @@ export function RitualSection() {
           transition={{ duration: 1.1, ease: "easeInOut", delay: 0.45 }}
           className="
             mt-12 h-[2px] w-52 
-            bg-[#7a4b47]/80
+            bg-[#059669]/80
             origin-left
           "
         />
@@ -101,7 +101,7 @@ export function RitualSection() {
           transition={{ duration: 1, ease: "easeOut", delay: 0.55 }}
           className="
             mt-4 text-3xl 
-            text-[#7a4b47]/90
+            text-[#059669]/90
             font-[playfair-display]
             tracking-wide
           "

@@ -131,7 +131,7 @@ export function FloatingSidebar() {
             30-day returns on all items
           </p>
           <p className="text-xs italic text-[#047857] leading-relaxed mt-3 pt-3 border-t border-[#d1fae5]">
-            &quot;Nature's elegance in every detail.&quot;
+            &quot;Nature&apos;s elegance in every detail.&quot;
           </p>
         </div>
       </div>

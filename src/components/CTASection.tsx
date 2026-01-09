@@ -17,8 +17,8 @@ export function Footer() {
               Abdul Rehman Store
             </Link>
             <p className="text-[#065f46] leading-relaxed text-sm">
-              Bringing nature's elegance to your everyday. Every piece is chosen
-              to elevate your lifestyle with quality and grace.
+              Bringing nature&apos;s elegance to your everyday. Every piece is
+              chosen to elevate your lifestyle with quality and grace.
             </p>
             <div className="flex gap-4">
               {/* Mock Social Icons */}
