@@ -1,0 +1,17 @@
+export function Footer() {
+  return (
+    <footer className="border-t border-neutral-200">
+      <div className="container-page py-10 text-sm text-neutral-800 flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+        <div>
+          <div className="font-semibold text-neutral-900">Abdul Rehman Store LLC</div>
+          <div className="mt-1">
+            Built for those who appreciate quality and elegance.
+          </div>
+        </div>
+        <div className="opacity-70">
+          © {new Date().getFullYear()} Abdul Rehman Store LLC. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  );
+}

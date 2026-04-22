@@ -1,0 +1,27 @@
+﻿
+> llc-market@0.1.0 lint
+> eslint
+
+
+C:\Users\PremKumar\OneDrive - QueryTel Inc\Desktop\Abdul-Rehman-LLC\postcss.config.mjs
+  2:1  warning  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
+
+C:\Users\PremKumar\OneDrive - QueryTel Inc\Desktop\Abdul-Rehman-LLC\src\app\page.tsx
+   9:7  warning  'RitualSection' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  18:7  warning  'CatalogPromo' is assigned a value but never used   @typescript-eslint/no-unused-vars
+
+C:\Users\PremKumar\OneDrive - QueryTel Inc\Desktop\Abdul-Rehman-LLC\src\components\CTASection.tsx
+  20:30  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\PremKumar\OneDrive - QueryTel Inc\Desktop\Abdul-Rehman-LLC\src\components\FloatingSidebar.tsx
+  134:25  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\PremKumar\OneDrive - QueryTel Inc\Desktop\Abdul-Rehman-LLC\src\components\NavBar.tsx
+  12:9   warning  'router' is assigned a value but never used                      @typescript-eslint/no-unused-vars
+  60:23  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\PremKumar\OneDrive - QueryTel Inc\Desktop\Abdul-Rehman-LLC\src\components\ProductGrid.tsx
+  40:21  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+Γ£û 8 problems (4 errors, 4 warnings)
+
